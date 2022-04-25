@@ -91,9 +91,9 @@ const Navbar = () => {
           </div>
         </nav>
       ) : (
-        <nav className="fixed z-30 items-center pt-5 navbar text-white px-5">
+        <nav className="fixed z-30 items-center pt-5 navbar px-5">
           <div className="flex-1">
-            <a className="btn btn-ghost normal-case text-xl">ICT Combiner</a>
+            <a className="btn btn-ghost normal-case text-xl text-white">ICT Combiner</a>
           </div>
           <div className="flex-none hidden lg:block">
             <ul className="menu menu-horizontal p-0">
@@ -102,7 +102,7 @@ const Navbar = () => {
                   return (
                     <Link href={item.url} key={index} exac>
                       <a
-                        className="transition ease-in-out delay-100 hover:text-primary"
+                        className="transition text-white ease-in-out delay-100 hover:text-primary"
                         target={item.target}
                       >
                         {item.label}
@@ -114,11 +114,11 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="ml-4">
-            <SwapTheme colorFill="text-base" />
+            <SwapTheme colorFill="text-white" />
           </div>
           <div className="lg:hidden block ml-4">
             <div className="dropdown dropdown-end">
-              <label tabIndex={0} className="btn btn-ghost btn-circle">
+              <label tabIndex={0} className="btn btn-ghost btn-circle text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

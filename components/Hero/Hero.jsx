@@ -17,7 +17,7 @@ const Hero = () => {
             Merancang dan mengembangkan aplikasi / web sesuai kebutuhan Anda.
           </p>
           <Link href="#LearnMore">
-            <a className="mt-10 btn btn-primary rounded-xl text-gradient dark:text-black hover:bg-gray-100">
+            <a className="mt-10 btn btn-primary rounded-xl text-gradient dark:text-black">
               Pelajari Lebih Lanjut
             </a>
           </Link>
