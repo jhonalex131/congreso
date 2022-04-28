@@ -3,8 +3,8 @@ import Card from "../Card/Card";
 const Product = () => {
   return (
     <>
-      <h1 className="px-10 py-10 text-5xl font-bold text-center">Produk</h1>
-      <div className="justify-center px-10 pt-5 pb-10 mb-10 md:gap-x-5 md:px-10 md:grid md:grid-cols-2 xl:grid-cols-4">
+      <h1 className="px-3 md:px-10 py-10 text-5xl font-bold text-center">Produk</h1>
+      <div className="justify-center px-3 pt-10 pb-10 mb-10 md:gap-x-5 md:px-10 md:grid md:grid-cols-2 xl:grid-cols-4">
         <Card
           title="Ujian Online"
           description="Ujian berbasis komputer dengan pilihan ganda acak"
