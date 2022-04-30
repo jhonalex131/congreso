@@ -3,7 +3,7 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider attribute="data-theme" enableSystem={true}>
+    <ThemeProvider attribute="data-theme" enableSystem={false}>
       <Component {...pageProps} />
     </ThemeProvider>
   );
