@@ -9,6 +9,7 @@ const Card = (props) => {
             src="/images/benefit-image-06.jpg"
             alt="Shoes"
             layout="fill"
+            priority
           />
           <div className="absolute inset-0 h-screen min-h-screen opacity-60 bg-neutral bg-blend-darken"></div>
         </figure>

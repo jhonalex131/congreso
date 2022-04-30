@@ -1,6 +1,5 @@
 import { useTheme } from "next-themes";
-import Image from "next/image";
-import Link from "next/link";
+import Header from '../components/Header/Header'
 import About from "../components/About/About";
 import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero/Hero";
@@ -13,21 +12,28 @@ export default function Home() {
   const { theme } = useTheme();
 
   return (
+    <>
+    <Header />
     <div className="overflow-hidden">
       <Navbar />
       <Hero />
 
       <main>
-        <section id="AboutUs" className="scroll-mt-36 md:-scroll-mt-5 xl:scroll-mt-5">
+        <section
+          id="AboutUs"
+          className="scroll-mt-36 md:-scroll-mt-5 xl:scroll-mt-5"
+        >
           <About />
         </section>
         <section id="Product" className="scroll-mt-16 xl:scroll-mt-36">
           <Product />
         </section>
         <section id="Service" className="scroll-mt-20">
-          <div className="px-3 md:px-10 py-10 lg:grid lg:grid-cols-2">
+          <div className="px-3 py-10 md:px-10 lg:grid lg:grid-cols-2">
             <div>
-              <h1 className="mb-16 text-4xl font-bold text-center lg:text-left">Kenapa Memilih Kami</h1>
+              <h1 className="mb-16 text-4xl font-bold text-center lg:text-left">
+                Kenapa Memilih Kami
+              </h1>
               <Service
                 title="Memiliki Team Yang Professional Di Bidangnya"
                 width="56"
@@ -72,17 +78,16 @@ export default function Home() {
               </Service>
             </div>
             <div className="flex items-center justify-center">
-              <div className="w-3/4 h-3/4 shadow-lg bg-[url('/images/office.jpg')] bg-cover bg-bottom rounded-xl">
-                {/* <Image src="/images/office.jpg" alt="office" layout="fill" /> */}
-              </div>
+              <div className="w-3/4 h-3/4 shadow-lg bg-[url('/images/office.jpg')] bg-cover bg-bottom rounded-xl"></div>
             </div>
           </div>
         </section>
-        <section>
+        <section id="Technology">
           <Technology />
         </section>
       </main>
       <Footer />
     </div>
+    </>
   );
 }
