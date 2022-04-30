@@ -19,21 +19,11 @@ const Header = () => {
       <meta property="og:title" content="ICT Combiner" />
       <meta
         property="description"
-        content="ICT Combiner adalah perusahaan pengembangan web yang berlokasi di
-                Bandung, Jawa Barat. Kami memiliki pengalaman bertahun-tahun dalam
-                layanan pengembangan web maupun aplikasi mobile. Kami memiliki
-                catatan yang terbukti dalam memberikan solusi aplikasi web yang
-                kompleks, mulai dari perencanaan, desain, pengerjaan hingga
-                pemeliharaan."
+        content="Solusi untuk berbagai layanan pengembangan web"
       />
       <meta
         property="og:description"
-        content="ICT Combiner adalah perusahaan pengembangan web yang berlokasi di
-                Bandung, Jawa Barat. Kami memiliki pengalaman bertahun-tahun dalam
-                layanan pengembangan web maupun aplikasi mobile. Kami memiliki
-                catatan yang terbukti dalam memberikan solusi aplikasi web yang
-                kompleks, mulai dari perencanaan, desain, pengerjaan hingga
-                pemeliharaan."
+        content="Solusi untuk berbagai layanan pengembangan web"
       />
     </Head>
   );
