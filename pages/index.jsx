@@ -7,6 +7,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Product from "../components/Product/Product";
 import Service from "../components/Service/Service";
 import Technology from "../components/Technology/Technology";
+import { Fade } from "react-reveal";
 
 export default function Home() {
   const { theme } = useTheme();
@@ -77,9 +78,11 @@ export default function Home() {
                 odio.
               </Service>
             </div>
-            <div className="flex items-center justify-center">
-              <div className="w-3/4 h-3/4 shadow-lg bg-[url('/images/office.jpg')] bg-cover bg-bottom rounded-xl"></div>
-            </div>
+            <Fade right>
+              <div className="flex items-center justify-center">
+                <div className="ml-10 w-full h-3/4 shadow-lg bg-[url('/images/office.jpg')] bg-cover bg-bottom rounded-xl"></div>
+              </div>
+            </Fade>
           </div>
         </section>
         <section id="Technology">
