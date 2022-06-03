@@ -73,6 +73,24 @@ const Technology = () => {
             height={70}
           />
         </div>
+        <div className="flex flex-col items-center justify-center mx-auto text-center transition-all duration-500 ease-in-out w-52 rounded-xl h-52 hover:shadow-2xl">
+          <Image
+            src="/logo/reactjs-logo.png"
+            alt="logo"
+            width={70}
+            priority
+            height={70}
+          />
+        </div>
+        <div className="flex flex-col items-center justify-center mx-auto text-center transition-all duration-500 ease-in-out w-52 rounded-xl h-52 hover:shadow-2xl">
+          <Image
+            src="/logo/postgreSQL-logo.png"
+            alt="logo"
+            width={80}
+            priority
+            height={70}
+          />
+        </div>
       </div>
     </Zoom>
   );
