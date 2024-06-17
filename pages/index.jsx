@@ -45,9 +45,7 @@ export default function Home() {
                       : "/assets/team.png"
                   }`}
                 >
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                  consequuntur dolorem ipsam provident qui est suscipit dolores
-                  id odio.
+                 hola
                 </Service>
                 <Service
                   title="Harga Fleksibel"
